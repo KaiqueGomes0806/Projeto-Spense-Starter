@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -----------------------------------------HEADER1------------------------------------------- */
+
+.header1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 8px;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* -----------------------------------------HEADER1------------------------------------------- */
+/* -----------------------------------------HEADER2------------------------------------------- */
+
+.header2{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header2-div1{
+    display: flex;
+    gap: 32px;
+}
+
+.header2-div2{
+    display: flex;
+    gap: 32px;
+    align-items: baseline;
+}
+
+.header2-botao{
+    padding: 10px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------HEADER2------------------------------------------- */
+/* -----------------------------------------ARTICLE1------------------------------------------- */
+.article1{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.article1-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.article1-lista{
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article1-h1{
+    font-size: 50px;
+}
+
+.article1-input{
+    padding: 10px;
+}
+
+.article1-botao{
+padding: 10px;
+color: white;
+background: black;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.article1-img{
+    height: 500px;
+}
+
+/* -----------------------------------------ARTICLE1------------------------------------------- */
+/* -------------------------------------------NAV---------------------------------------------- */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 190px;
+    padding-left: 150px;
+    gap: 32px;
+}
+
+.nav-img{
+    height: 50px;
+    width: 100px;
+}
+/* -------------------------------------------NAV---------------------------------------------- */
+/* ----------------------------------------ARTICLE2-------------------------------------------- */
+.article2{
+    font-family: 'Cabin', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    gap: 32px;
+    
+}
+
+.article2-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.article2-h1{
+    font-size: 40px;
+}
+
+.article2-img{
+    height: 300px;
+    width: 600px;
+}
+
+/* ----------------------------------------ARTICLE2-------------------------------------------- */
+/* ----------------------------------------ARTICLE3-------------------------------------------- */
+.article3{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    padding: 50px;
+}
+
+.article3-img{
+    height: 500px;
+}
+
+.article3-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article3-h1{
+    font-size: 40px;
+}
+
+/* ----------------------------------------ARTICLE3-------------------------------------------- */
+/* ----------------------------------------FOOTER-------------------------------------------- */
+
+footer{
+    font-family: 'Cabin', sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
